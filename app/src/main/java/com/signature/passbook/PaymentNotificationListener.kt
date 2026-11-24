@@ -1,4 +1,4 @@
-﻿package com.signature.passbook
+package com.signature.passbook
 
 import android.service.notification.NotificationListenerService
 import android.service.notification.StatusBarNotification

@@ -1,4 +1,4 @@
-﻿package com.signature.passbook
+package com.signature.passbook
 
 import android.content.Context
 import android.content.Intent
