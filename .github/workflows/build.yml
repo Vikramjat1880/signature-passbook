@@ -9,9 +9,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - uses: android-actions/setup-android@v3
       - name: Build Debug APK
         run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
           gradle wrapper
           chmod +x gradlew
           ./gradlew assembleDebug
